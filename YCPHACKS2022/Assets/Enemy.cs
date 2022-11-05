@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SlimeScript : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public float health = 1;
-
+   Animator animator;
 
     public float Health{
         set{
@@ -19,7 +18,19 @@ public class SlimeScript : MonoBehaviour
             return health;
         }
     }
+
+        public float health = 1;
+
+    private void start(){
+        animator = GetComponent<Animator>();
+    }
+
+
     public void Defeated(){
+        animator.SetTrigger("Defeated");
+    }
+
+    public void RemoveEnemy(){
         Destroy(gameObject);
     }
 }

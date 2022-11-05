@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2170983739057577367}
   - component: {fileID: 5698236134841630301}
   - component: {fileID: 1359387157335757006}
+  - component: {fileID: 814320418640521432}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -127,3 +128,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &814320418640521432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678587926489001050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8da9a54dc2d7b94b896c04a33d52be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
